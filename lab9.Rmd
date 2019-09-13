@@ -1,0 +1,30 @@
+---
+title: "IS6481 | Lab 9 -- Using APIs"
+output: 
+  html_document: 
+    theme: cosmo
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# options(width = 120)
+library(ggplot2)
+library(fpc)
+library(tidyverse)
+library(reshape2)
+library(ggrepel)
+library(gridExtra)
+library(rpart)
+library(rpart.plot)
+```
+
+# Objective
+Learn what data is available via social media APIs and have a little fun for the last lab.
+
+# Background
+In one of our lectures this semester we discussed the concept of a service-based architecture. This is how most modern web apps are designed. Part of the service-based architecture is something called an API (or Application Programming Interface). An API is generally a set of functions that a software package makes available for external applications and allows someone to program different actions against that API.
+
+For our purposes, we are interested in the fact that one of the functions provided by APIs is the ability to get some off the data collected by a specific application. In particular, most of the major social media platforms allow for data to be downloaded via their APIs. The data varies in granularity and specificity, but there is generally something available from all the major social media platforms.
+
+# To Turn in
+Go to the app store in Domo and search "quickstart social media", this will show a handful of options. Install one of the quick starts and turn in a document describing what you learn by looking at the cards on the installed page.
